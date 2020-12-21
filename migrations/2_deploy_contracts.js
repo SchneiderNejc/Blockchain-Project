@@ -1,5 +1,5 @@
-var Greetings = artifacts.require("./Greetings.sol");
+var ChainList = artifacts.require('./ChainList.sol');
 
-module.exports = function (deployer){
-  deployer.deploy(Greetings);
-};
+module.exports = function(deployer){
+  deployer.deploy(ChainList);
+}
